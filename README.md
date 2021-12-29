@@ -1,4 +1,4 @@
-# Very important!
+# Macht die Kack Umfrage!
 
 ![Dog](img/veryimportant.jpg)
 
