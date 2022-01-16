@@ -4,6 +4,8 @@
     font-size: medium;
     font-family: "Atlas Grotesk Web",sans-serif;
     font-size: 19px;
+    color: whitesmoke;
+    background-color: rgb(24, 26, 27);
 }
 
 .titel {
@@ -27,6 +29,13 @@
     font-size: large;
     text-align: center;
     margin-top: 1%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     text-decoration-line: underline;
+}
+
+#pictures {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
 }
