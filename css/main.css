@@ -1,6 +1,8 @@
 /* classes */
 
 .main {
+    display: flex;
+    flex-direction: column;
     font-size: medium;
     font-family: "Atlas Grotesk Web",sans-serif;
     font-size: 19px;
@@ -11,15 +13,6 @@
 .titel {
     font-size: 60px;
     text-align: center;
-}
-
-.article {
-    padding: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    border: solid 2px rgb(255, 0, 75);
 }
 
 
@@ -37,5 +30,15 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#footer {
     padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: auto;
+    margin-bottom: 2.5%;
+    border: solid 2px rgb(255, 0, 75);
 }
