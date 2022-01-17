@@ -4,7 +4,8 @@
     display: flex;
     flex-direction: column;
     font-size: medium;
-    font-family: "Atlas Grotesk Web",sans-serif;
+    font-family: "Comic Sans MS";
+    /*font-family: "Atlas Grotesk Web",sans-serif;*/
     font-size: 19px;
     color: whitesmoke;
     background-color: rgb(24, 26, 27);
