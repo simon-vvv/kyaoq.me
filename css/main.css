@@ -28,10 +28,12 @@
     background-color: rgb(255, 0, 150);
 }
 
-.downloadonewrap {
-    align-self: flex-end;
-    margin-top: 2.5%;
-    margin-right: 10%;
+.pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 10px;
 }
 
 /* ids */
