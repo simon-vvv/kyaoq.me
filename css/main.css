@@ -7,11 +7,16 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    font-family: "Comic Sans MS";
+    /*font-family: "Atlas Grotesk Web",sans-serif;*/
+    background-color: rgb(24, 26, 27);
+    color: whitesmoke;
+    font-size: 19px;
 }
 
 /* classes */
 
-.download {
+.button {
     background-color: rgb(255, 0, 75);
     padding: 12px 30px;
     cursor: pointer;
@@ -20,7 +25,7 @@ body {
     color: whitesmoke;
 }
 
-.download:hover {
+.button:hover {
     background-color: rgb(255, 0, 150);
 }
 
@@ -41,21 +46,14 @@ body {
 }
 
 #main {
-    display: flex;
-    flex-direction: column;
     flex-grow: 1;
-    font-family: "Comic Sans MS";
-    /*font-family: "Atlas Grotesk Web",sans-serif;*/
-    font-size: 19px;
-    color: whitesmoke;
-    background-color: rgb(24, 26, 27);
 }
 
 #untertitel {
     font-size: large;
     text-align: center;
     margin-top: 1%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     text-decoration-line: underline;
 }
 
@@ -72,6 +70,6 @@ body {
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-top: 2.5%;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
     border: solid 2px rgb(255, 0, 75);
 }
