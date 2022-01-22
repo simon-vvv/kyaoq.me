@@ -52,6 +52,7 @@ body {
     font-weight: bold;
     font-size: 7vh;
     color: var(--foreground-color);
+    user-select: none;
 }
 
 .score > * {
