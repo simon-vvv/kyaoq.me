@@ -39,7 +39,7 @@ function handleLose() {
 }
 
 document.addEventListener("mousemove", e => {
-    playerPaddle.position = (e.y / window.innerHeight) * 100
+    playerPaddle.position = ((e.y / window.innerHeight) * 100);
 })
-
+// - (parseFloat(getComputedStyle(playerPaddle).getPropertyValue("height")) * 0.5)
 window.requestAnimationFrame(update)

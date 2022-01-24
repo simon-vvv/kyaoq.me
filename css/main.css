@@ -72,4 +72,7 @@ body {
     margin-top: 2.5%;
     margin-bottom: 1%;
     border: solid 2px rgb(255, 0, 75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
