@@ -1,0 +1,156 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #181818;
+  height: 100vh;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background-color: #202020;
+  align-items: center;
+}
+
+header h1 {
+  color: #ffffff;
+  border-bottom: 3px solid #ff004b;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: 3px solid #ff004b;
+}
+
+section {
+  width: 800px;
+  height: 500px;
+  /* background-color: #fff; */
+  /* margin-top: 10px;
+    margin-left: 10px; */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ff004b;
+}
+
+section h1 {
+  color: #ffffff;
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+section .link-container,
+.format-container,
+.button-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  width: 500px;
+}
+
+section .link-container label,
+.format-container label {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+section .link-container input,
+.format-container select {
+  outline: none;
+  height: 35px;
+  border-radius: 5px;
+  padding: 0 10px;
+  border: 2px solid #666;
+  font-size: 14px;
+}
+
+section .button-container button {
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  background-color: #ff004b;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+  section {
+    width: 500px;
+  }
+
+  section .link-container,
+  .format-container,
+  .button-container {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  section {
+    width: 350px;
+    height: 450px;
+    margin-top: 50px;
+  }
+
+  section .link-container,
+  .format-container,
+  .button-container {
+    width: 300px;
+  }
+}
+
+.button {
+  background-color: #ff004b;
+  padding: 12px 30px;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.button:hover {
+  background-color: #ff004b;
+}
+
+.pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 10px;
+}
+
+#pictures {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}

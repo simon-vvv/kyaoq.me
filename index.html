@@ -5,71 +5,74 @@
 <head>
     <html lang="de">
     <meta charset="utf-8" />
-    <title>kyaoq.me</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>kyaoq.me</title>
 </head>
 
-<header id="header">
+<body>
 
-    <img src="favicon.ico" style="width: 50px;">
+    <header id="header">
+        <!--img src="favicon.ico" style="width: 50px;"-->
+        <h1 class="title">kyaoq.me</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </header>
 
-    kyaoq.me
-</header>
+    <main id="main">
 
-<main id="main">
+        <h3 style="display: flex; align-items: center; justify-content: center;">
+            Some Pictures:
+        </h3>
 
-    <div id="untertitel">
-        Why are you torturing me with Comic Sans, Nancy?
-    </div>
+        <div id="pictures">
 
-    <h3 style="display: flex; align-items: center; justify-content: center;">
-        Some Pictures:
-    </h3>
+            <picture class="pic">
 
-    <div id="pictures">
+                <img src="img/akape.png" style="width: auto;">
 
-        <picture class="pic">
+                <a href="img/akape.png" download="akape.png">
+                    <button class="button">
+                        <i class="fa fa-download"></i>
+                        Download
+                    </button>
+                </a>
 
-            <img src="img/akape.png" style="width: auto;">
+            </picture>
 
-            <a href="img/akape.png" download="akape.png">
-                <button class="button">
-                    <i class="fa fa-download"></i>
-                    Download
-                </button>
-            </a>
+            <picture class="pic">
 
-        </picture>
+                <img src="img/snipermonkey.jpg" style="width: auto;">
 
-        <picture class="pic">
+                <a href="img/snipermonkey.jpg" download="snipermonkey.png">
+                    <button class="button">
+                        <i class="fa fa-download"></i>
+                        Download
+                    </button>
+                </a>
 
-            <img src="img/snipermonkey.jpg" style="width: auto;">
+            </picture>
 
-            <a href="img/snipermonkey.jpg" download="snipermonkey.png">
-                <button class="button">
-                    <i class="fa fa-download"></i>
-                    Download
-                </button>
-            </a>
+        </div>
 
-        </picture>
+        <h3 style="display: flex; justify-content: center; align-items: center; margin-top: 50px;">
+            You can play some pong here:
+            <button onclick="location.href='./pong.html'" class="button" style="margin-left: 10px">
+                Pong
+            </button>
+        </h3>
 
-    </div>
+        <h3 style="display: flex; justify-content: center; align-items: center; margin-top: 50px;">
+            Download YouTube Videos:
+            <button onclick="location.href='./downloader.html'" class="button" style="margin-left: 10px">
+                Pong
+            </button>
+        </h3>
 
-    <h3 style="display: flex; justify-content: center; align-items: center; margin-top: 50px;">
-        You can play some pong here:
-        <button onclick="location.href='./pong.html'" class="button" style="margin-left: 10px">
-            Pong
-        </button>
-    </h3>
+    </main>
 
-
-</main>
-
-<footer id="footer">
-    How the fuck did you find this website? https://discord.gg/4Mgx4TpXP2
-</footer>
+</body>
 
 </html>

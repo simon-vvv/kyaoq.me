@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/pong.css">
-    <link rel="stylesheet" href="css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/pong.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="js/script.js" type="module"></script>
     <title>Pong</title>
-</head>
+  </head>
 
-<body>
-    <button onclick="location.href='./index.html'" class="button"
-        style="height: 50px; width: 100px; display: flex; align-items: center; justify-content: center; margin: 10px;">
-        Return
-    </button>
+  <body>
+    <header id="header">
+      <!--img src="favicon.ico" style="width: 50px;"-->
+      <h1 class="title">kyaoq.me</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </header>
+
     <div class="score">
-        <div id="player-score">0</div>
-        <div id="computer-score">0</div>
+      <div id="player-score">0</div>
+      <div id="computer-score">0</div>
     </div>
     <div class="ball" id="ball"></div>
     <div class="paddle left" id="player-paddle"></div>
     <div class="paddle right" id="computer-paddle"></div>
-</body>
-
+  </body>
 </html>
